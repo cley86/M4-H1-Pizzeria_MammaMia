@@ -4,9 +4,9 @@ import CardPizza from "../components/CardPizza";
 
 const Home = () => {
   return (
-    <div className="container-fluid text-center min-vh-100 d-flex flex-column">
+    <div className="container-fluid text-center min-vh-100 d-flex flex-column px-0">
       <Header />
-      <div className="row w-100 justify-content-center">
+      <div className="row w-100 justify-content-center mt-5">
         <div className="col-12 d-flex justify-content-center flex-wrap gap-3">
           <CardPizza
             name="Napolitana"
